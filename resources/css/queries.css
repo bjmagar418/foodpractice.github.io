@@ -1,0 +1,58 @@
+/* big tablets  to 1200px*/
+
+@media only screen and (max-width:1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+/* small tablets  to small tablets 481 to 767px potrait mode*/
+@media only screen and (max-width:1023px) {
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding:60px 0;
+    }
+    .hero-text-box{
+        width: 100%;
+        padding-left: 250px;
+    }
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box{
+        margin-top: 10px;
+    }
+    .steps-box:last-child{
+        margin-top: 10px;
+    }
+    .works-steps{
+        margin-bottom: 40px;
+    }
+    .works-steps:last-of-type{margin-bottom: 60px;}
+    .app-screen{width: 50%;}
+    .icon-small{width: 20px;}
+    .city-feature{font-size:90%}
+    .plan-box{
+        width: 100%;
+        margin-bottom: 10px;
+        font-weight: 100;
+        color: #e67e22;
+    }
+    .plan-box{font-size: 250%;}
+}
+/* small phone  to small tablets 481 to 767px*/
+
+@media only screen and (max-width:767px) {
+    
+    
+}
+/* small phone from 0 to 480px*/
+@media only screen and (max-width:480px) {
+    
+}
